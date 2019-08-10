@@ -1,0 +1,39 @@
+.board-card {
+    background: rgba(237, 237, 76, 0.69);
+    width: 140px;
+    height: 140px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.board-card > span {
+    text-align: center;
+    resize: none;
+    background-color: transparent;
+    width: 100%;
+    height: 85%;
+    border: 0;
+    outline: 0px;
+    font-size: 12px;
+    float: left;
+    overflow-y: auto;
+}
+
+.board-card > div {
+    height: 15%;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.board-card > div > i {
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}

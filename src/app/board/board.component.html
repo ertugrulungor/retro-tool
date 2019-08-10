@@ -1,0 +1,5 @@
+<div class="board">
+    <app-board-header [name]="boardName" ></app-board-header>
+    <app-board-public-section [cards]="cards"></app-board-public-section>
+    <app-board-private-section (cardSaveEvent)="onCardSave($event)"></app-board-private-section>
+</div>

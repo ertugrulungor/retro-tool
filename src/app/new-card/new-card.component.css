@@ -1,0 +1,28 @@
+.board-card {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(237, 237, 76, 0.69);
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.board-card > textarea {
+    text-align: center;
+    resize: none;
+    background-color: transparent;
+    width: 100%;
+    height: 78%;
+    border: 0;
+    outline: 0px;
+    font-size: 12px;
+}
+
+.board-card > span {
+    height: 22%;
+    font-size: 9px;
+}

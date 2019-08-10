@@ -1,0 +1,5 @@
+<div class="board-card">
+    <textarea [(ngModel)]="cardText" maxlength="140" placeholder="Type Here & Press Enter to Save."
+        (keyup.enter)="addNewCard()"></textarea>
+    <span>{{cardText.length}} / 140</span>
+</div>
