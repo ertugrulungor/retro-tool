@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BoardPrivateSectionComponent } from './board-private-section.component';
+import { NewCardComponent } from '../new-card/new-card.component';
+import { FormsModule } from '@angular/forms';
 
 describe('BoardPrivateSectionComponent', () => {
   let component: BoardPrivateSectionComponent;
@@ -8,7 +10,8 @@ describe('BoardPrivateSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BoardPrivateSectionComponent ]
+      declarations: [ BoardPrivateSectionComponent, NewCardComponent ],
+      imports: [FormsModule]
     })
     .compileComponents();
   }));
