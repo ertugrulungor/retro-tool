@@ -15,9 +15,9 @@ describe('BoardComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        BoardComponent, 
-        BoardHeaderComponent, 
-        BoardPublicSectionComponent, 
+        BoardComponent,
+        BoardHeaderComponent,
+        BoardPublicSectionComponent,
         BoardPrivateSectionComponent,
         CardComponent,
         NewCardComponent
