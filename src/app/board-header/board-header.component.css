@@ -13,3 +13,18 @@
     font-size: 1.1em;
     font-weight: bold;
 }
+
+.select-card {
+    position: absolute;
+    margin-top: 2px;
+    cursor: pointer;
+    height: 26px;
+}
+
+.check {
+    right: 10px;
+}
+
+.group {
+    right: 30px;
+}

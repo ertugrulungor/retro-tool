@@ -1,3 +1,22 @@
+.board-card-group {
+    height: 146px;
+    width: 140px;
+    float: left;
+    margin: 10px;
+}
+
+.board-card-group-header {
+    background: rgba(237, 237, 76, 0.69);
+    width: 140px;
+    height: 6px;
+    border: 1px solid transparent;
+    border-bottom: 0px;
+    border-radius: 4px 4px 0px 0px;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    float: left;
+}
+
 .board-card {
     background: rgba(237, 237, 76, 0.69);
     width: 140px;
@@ -7,7 +26,6 @@
     -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
     float: left;
-    margin: 10px;
     text-align: center;
 }
 
@@ -30,14 +48,4 @@
     float: left;
     text-align: center;
     width: 100%;
-}
-
-.board-card > div > i {
-    margin-right: 5px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-
-.board-card > .select-card {
-    background-color: #e8e752;
 }

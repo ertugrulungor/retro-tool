@@ -1,0 +1,16 @@
+<div class="board-card-group">
+    <div class="board-card-group-header">
+    </div>
+    <div class="board-card">
+        <span>{{getDefaultCard().text}}</span>
+        <div *ngIf="!isCardGroupSelect">
+            {{getCardsScore()}}
+        </div>
+        <div *ngIf="isCardGroupSelect" class="select-card">
+            <a (click)="onCardSelectedChange()">
+                <i *ngIf="!selectCard" class="fa fa-square-o" aria-hidden="true"></i>
+                <i *ngIf="selectCard" class="fa fa-check-square-o" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>

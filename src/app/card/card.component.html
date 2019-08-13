@@ -1,8 +1,14 @@
 <div class="board-card">
-    <span>{{text}}</span>
-    <div>
+    <span>{{cardModel.text}}</span>
+    <div *ngIf="!isCardSelect">
         <i (click)="increase()" class="fa fa-plus-square" aria-hidden="true"></i>
-        {{score}}
+        {{cardModel.score}}
         <i (click)="decrease()" class="fa fa-minus-square" aria-hidden="true"></i>
+    </div>
+    <div *ngIf="isCardSelect" class="select-card">
+        <a (click)="onCardSelectedChange()">
+            <i *ngIf="!selectCard" class="fa fa-square-o" aria-hidden="true"></i>
+            <i *ngIf="selectCard" class="fa fa-check-square-o" aria-hidden="true"></i>
+        </a>
     </div>
 </div>
