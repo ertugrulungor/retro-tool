@@ -1,3 +1,10 @@
 <div class="board-header">
     <span class="board-name">{{name}}</span>
+    <span *ngIf="isCardSelect" class="select-card group" (click)="groupOn()">
+        <i class="fa fa-object-group" aria-hidden="true"></i>
+    </span>
+    <span class="select-card check" (click)="cardSelect()">
+        <i *ngIf="!isCardSelect" class="fa fa-check-square-o" aria-hidden="true"></i>
+        <i *ngIf="isCardSelect" class="fa fa-times-circle" aria-hidden="true"></i>
+    </span>
 </div>
