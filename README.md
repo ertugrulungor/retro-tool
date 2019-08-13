@@ -1,4 +1,4 @@
-# RetroTool
+# RetroTool [![Build Status](https://travis-ci.com/ertugrulungor/retro-tool.svg?branch=develop)](https://travis-ci.com/ertugrulungor/retro-tool)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 

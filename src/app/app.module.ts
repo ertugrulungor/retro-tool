@@ -11,6 +11,8 @@ import { BoardHeaderComponent } from './board-header/board-header.component';
 import { CardComponent } from './card/card.component';
 import { FormsModule } from '@angular/forms';
 import { NewCardComponent } from './new-card/new-card.component';
+import { CardGroupComponent } from './card-group/card-group.component';
+import { CardService } from './service/card-service';
 
 @NgModule({
   declarations: [
@@ -21,14 +23,15 @@ import { NewCardComponent } from './new-card/new-card.component';
     BoardPrivateSectionComponent,
     BoardHeaderComponent,
     CardComponent,
-    NewCardComponent
+    NewCardComponent,
+    CardGroupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

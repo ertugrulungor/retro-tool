@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BoardPublicSectionComponent } from './board-public-section.component';
+import { CardComponent } from '../card/card.component';
 
 describe('BoardPublicSectionComponent', () => {
   let component: BoardPublicSectionComponent;
@@ -8,7 +9,7 @@ describe('BoardPublicSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BoardPublicSectionComponent ]
+      declarations: [ BoardPublicSectionComponent, CardComponent ]
     })
     .compileComponents();
   }));
